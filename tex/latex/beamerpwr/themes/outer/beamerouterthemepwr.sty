@@ -1,0 +1,154 @@
+%\ProvidesPackageRCS $Header: /home/myszka/Dokumenty/teksty/rozne/logotyp/RCS/beamerouterthemepwr.sty,v 1.2 2009/11/03 11:33:16 myszka Exp myszka $
+
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+%
+% Modified by Wojciech Myszka <Wojciech.Myszka@pwr.wroc.pl>
+
+%% W szablonie sidebar (theme pwr) wysokość paska po lewej wyliczana 
+%% jako wysokość papiery (\paperheight) minus 25 mm aby uwzględnić
+%% opcję aspectratio
+
+\newdimen\beamer@sidebarwidth
+\newdimen\beamer@headheight
+\usebeamerfont{frametitle}
+\beamer@sidebarwidth=2.5\baselineskip
+\beamer@headheight=2.5\baselineskip
+\reset@font
+
+\def\beamer@lefttext{left}
+
+\DeclareOptionBeamer{hideothersubsections}[]{\beamer@nav@subsectionstyle{show/show/hide}}
+\DeclareOptionBeamer{hideallsubsections}[]{\beamer@nav@subsectionstyle{hide}}
+
+\DeclareOptionBeamer{width}{\beamer@sidebarwidth=#1}
+\DeclareOptionBeamer{height}{\beamer@headheight=#1}
+\DeclareOptionBeamer{left}{\def\beamer@sidebarside{left}}
+\DeclareOptionBeamer{right}{\def\beamer@sidebarside{right}}
+\ExecuteOptionsBeamer{left}
+\ProcessOptionsBeamer
+
+
+\mode<presentation>
+
+\ifdim\beamer@headheight>0pt
+% if head height is 0pt, use default frame title
+
+  \setbeamercolor*{frametitle}{parent=sidebar}
+
+  \defbeamertemplate*{frametitle}{pwr theme}
+  {%
+    \nointerlineskip%
+  \@tempdima=\textwidth%
+  \advance\@tempdima by\beamer@leftmargin%
+  \advance\@tempdima by\beamer@rightmargin%
+  \advance\@tempdima by-0mm%
+  \begin{beamercolorbox}[sep=0cm,wd=\the\@tempdima,dp=0mm,ht=18mm,leftskip=1mm]{frametitle}%
+    \vbox to 18mm{%
+    \vfil%
+    {\usebeamerfont{frametitle}\insertframetitle\par}%
+    {%
+      \ifx\insertframesubtitle\@empty%
+      \else%
+      {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle\par}%\vskip-8pt%
+      \fi
+    }%
+%    \vbox{}%
+%    \vskip-1em%
+    \vfil%
+    }%
+  \end{beamercolorbox}%
+  }
+
+  \defbeamertemplate*{headline}{pwr theme}
+  {%
+    \begin{beamercolorbox}[wd=\paperwidth]{headline}
+      \ifx\beamer@sidebarside\beamer@lefttext%
+      \else%
+        \hfill%
+      \fi%
+      \ifdim\beamer@sidebarwidth>0pt%
+        \usebeamercolor[bg]{logo}%
+        \vrule width\beamer@sidebarwidth height 7mm%
+        \hskip-\beamer@sidebarwidth%
+        \hbox to \beamer@sidebarwidth{\vbox to
+          7mm {\hbox{\color{fg}\pgfuseimage{Logomale}}\vss}\hss}%
+      \else%
+        \vrule width0pt height \beamer@headheight%
+      \fi%
+    \end{beamercolorbox}
+  }
+\fi
+
+
+\def\beamer@sidebarformat#1#2#3{%
+  \begin{beamercolorbox}[wd=\beamer@sidebarwidth,leftskip=#1,rightskip=1ex plus1fil,vmode]{#2}
+    \vbox{}%
+    #3\par%
+    \vbox{}%
+    \vskip-1.5ex%
+  \end{beamercolorbox}
+}
+
+\defbeamertemplate*{section in sidebar}{pwr theme}
+{%
+  \vbox{%
+    \vskip1ex%
+    \beamer@sidebarformat{3pt}{section in sidebar}{\insertsectionhead}%
+  }%
+}
+
+\defbeamertemplate*{section in sidebar shaded}{pwr theme}
+{%
+  \vbox{%
+    \vskip1ex%
+    \beamer@sidebarformat{3pt}{section in sidebar shaded}{\insertsectionhead}%
+  }%
+}
+
+\defbeamertemplate*{subsection in sidebar}{pwr theme}
+{%
+  \beamer@sidebarformat{5pt}{subsection in sidebar}{\insertsubsectionhead}%
+}
+
+\defbeamertemplate*{subsection in sidebar shaded}{pwr theme}
+{%
+  \beamer@sidebarformat{5pt}{subsection in sidebar shaded}{\insertsubsectionhead}%
+}
+
+
+\ifdim\beamer@sidebarwidth>0pt
+
+                                % Sidebar
+  \setbeamersize{sidebar width \beamer@sidebarside=\beamer@sidebarwidth}
+  \defbeamertemplate*{sidebar \beamer@sidebarside}{pwr theme}
+  {
+    \beamer@tempdim=\paperheight%
+    \advance\beamer@tempdim by -25mm%
+    \begin{beamercolorbox}[wd=7mm,ht=18mm]{headline}
+    \null
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[wd=7mm,ht=\beamer@tempdim]{frametitle}
+    \null
+    \end{beamercolorbox}
+  }%
+
+  \ifx\beamer@sidebarside\beamer@lefttext%
+    \defbeamertemplate*{sidebar right}{pwr theme}
+    {%
+      \vfill%
+      \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+      \vskip2pt}
+  \fi
+                                % Margins
+  \setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
+\fi
+
+\mode
+<all>
+
+%%% Local Variables:
+%%% TeX-master: "~/texmf/tex/latex/beamer/test/test.tex"
+%%% End:

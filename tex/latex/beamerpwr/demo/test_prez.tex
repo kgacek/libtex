@@ -1,0 +1,257 @@
+% -*- TeX:PL -*-
+% $Id: $
+\documentclass[12pt]{beamer}
+\usepackage[T1]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{lipsum}
+\usepackage{multimedia}
+%\usepackage[a4paper]{geometry}
+%\usepackage{graphicx}
+%\usepackage[]{hyperref}
+%
+
+%
+\author{Wojciech Myszka}
+\title{Logotyp Politechniki Wroc³awskiej a \LaTeX}
+ \subtitle{Kilka uwag i przemyœleñ}
+ \date{\today}
+ \institute{Instytut Materia³oznawstwa i Mechaniki Technicznej}
+ \subject{Logotyp Politechniki Wroc³awskiej}
+ \keywords{logotyp, Politechnika Wroc³awska, LaTeX}
+ \titlegraphic{}
+
+\setbeamersize{text margin left=0mm,text margin right=2.5mm}
+%\setbeamersize{sidebar width left=0mm,sidebar width right=0cm}
+\usetheme[]{pwr}
+
+%\transdissolve[duration=0.2]
+%\logo{\includegraphics[height=7mm]{poziom-pl-pantone}}
+\logo{\includegraphics[height=7.05mm]{logopwrpl}}
+
+\begin{document}
+\begin{frame}[plain]
+ \maketitle
+\end{frame}
+
+\begin{frame}%[allowframebreaks=.7]
+\frametitle{abstract}
+\begin{abstract}
+\lipsum[1]
+\end{abstract}
+\end{frame}
+
+\begin{frame}[plain]
+\begin{beamercolorbox}[wd=105mm,dp=0ex,ht=73mm,sep=3mm]{title}
+ \unitlength=1mm
+ \begin{picture}(99,67)
+ \put(49.5,67){\makebox(0,0)[tc]{\parbox{99mm}{\centering\usebeamerfont{title}\inserttitle}}}
+ \put(0,0){x}
+ \end{picture}
+\end{beamercolorbox}
+\end{frame}
+
+%\end{document}
+
+\begin{frame}
+ \frametitle{Tytu³ framki g}
+ \framesubtitle{Podtytu³ ramki g}
+ Ala ma gnu Ala ma gnu Ala ma gnu Ala ma gnu Ala ma gnu
+ Ala ma gnu Ala ma gnu Ala ma gnu Ala ma gnu Ala ma gnu Ala ma
+ gnu Ala ma gnu Ala ma gnu Ala ma gnu Ala ma gnu Ala ma gnu
+ Ala ma kota!
+
+ Ala ma kota Ala ma kota Ala ma kota Ala ma kota Ala ma kota
+ Ala ma kota Ala ma kota Ala ma kota Ala ma kota Ala ma kota Ala ma
+ kota Ala ma kota Ala ma kota Ala ma kota Ala ma kota Ala ma kota
+\end{frame}
+
+\begin{frame}
+\frametitle{Kolumny}
+\begin{columns}[t]
+\column{0.4\textwidth}
+\begin{block}{Ala ma kota}
+Ala ma kota Ala ma kota Ala ma kota
+\end{block}
+\column{0.6\textwidth}
+\begin{block}{Ola ma psa}
+Ola ma psa Ola ma psa Ola ma psa
+\end{block}
+\end{columns}
+\end{frame}
+
+%\end{document}
+\begin{frame}
+ \frametitle{Trochê matematyki}
+
+ $$g=\sin(x)\sum_{i=1}^{100}g_i$$
+\end{frame}
+%\end{document}
+
+\begin{frame}
+ \frametitle{Odsy³acze}
+% \framesubtitle{podtytu³}
+
+ Tu testujemy wygl¹d odsy³aczy (,,linków'' czy te¿ ,,hiper³¹czy'').
+ Kolor zaczerpniêto z prezentacji ,,wzorcowej'' i nie wygl¹da to
+ najlepiej...
+
+ Tu skorzysta³em z polecenia \textbf{url}
+ \url{http://www.immt.pwr.wroc.pl/}
+
+ A tu z polecenia \textbf{href} (sam odsy³acz ,,ukryty'' jest pod
+ napisem\ldots{}
+ \href{http://www.pwr.wroc.pl/}{Link w tekœcie}
+\end{frame}
+
+%\end{document}
+
+\begin{frame}%[allowframebreaks=.70]
+ \frametitle{Porównanie obrazków}
+ Na tej ramce porównamy sobie co wygl¹da \alert{lepiej}:
+ \begin{itemize}
+  \item<1-> czy grafika wektorowa œciœniêta do rozmiaru takiego
+  samego jak ten w lewym górnym rogu (ok 56 pikseli):
+  \pgfimage[width=7mm,interpolate=false]{zz}
+  \item<2-> czy grafika rastrowa (z antyaliasingiem) o
+  porównywalnych rozmiarach: \pgfimage[width=7mm,interpolate=false]{zz_}
+ \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+ \frametitle{Porównanie obrazków II}
+ \begin{itemize}
+  \item Teraz to samo, tylko w rozmiarze takim jak na stronie
+  tytu³owej:\\
+  \pgfimage[width=23mm,interpolate=false]{zz}
+  \pgfimage[width=23mm,interpolate=false]{zz__}
+ \end{itemize}
+ {Wnioski s¹ oczywiste!}
+\end{frame}
+
+%\end{document}
+
+\begin{frame}
+ \frametitle{\null}
+\begin{itemize}
+ \item<1> Ala ma kota
+ \item<2> Ola ma psa
+ \item<3> kot ma olê
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+ \frametitle{O Oli i Ali}
+ \begin{itemize}[<+->]
+  \item Ala ma kota
+  \item Ola ma psa
+  \item kot ma Olê
+ \end{itemize}
+\end{frame}
+
+%\end{document}
+
+\begin{frame}
+\frametitle{}
+
+To (tak generalnie) jest test kolorowego prostok¹ta, ale te¿
+zwrócenie uwagi, ¿e je¿eli ,,ramka'' nie ma tytu³u -- to nie ma te¿
+wype³nionego pola. Zatem, je¿eli nie chcemy tytu³u musimy daæ coœ we
+frametitle...
+
+
+  \begin{beamercolorbox}[sep=0.3cm,wd=20mm,ht=18mm]{frametitle}
+    \vbox to 18mm{%
+    \vfil%
+    %Ala ma kota
+    \vbox{}%
+    \vskip-1em%
+    \vfil%
+    }%
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[sep=0.3cm,wd=20mm,ht=18mm]{frametitle}
+    \vbox to 18mm{%
+    \vfil%
+    Ala ma kota
+    \vbox{}%
+    \vskip-1em%
+    \vfil%
+    }%
+  \end{beamercolorbox}%
+
+\end{frame}
+
+\begin{frame}[allowframebreaks=.70]
+\frametitle{Lorem ipsum}
+
+Dalej bêd¹ ramki z kontynuacj¹...
+
+ \lipsum
+\end{frame}
+
+%\end{document}
+
+%\begin{frame}
+% \frametitle{Multimedia}
+% To wymaga zainstalowanego QuickTime playera (i nie wszêdzie
+% zadzia³a :-)
+% \movie[width=3cm,height=2cm,poster]{ala ma filmik}{sample.mov}
+%\end{frame}
+
+%\begin{frame}
+% \frametitle{Coœ dla matematyków}
+\newcount\opaqueness
+\newdimen\offset
+\begin{frame}
+\frametitle{Flying Theorems (You Really Shouldn’t!)}
+\framesubtitle{Nie twierdzê, ¿e efekt jest powalaj¹cy, ale\ldots}
+\animate<2-14>
+\animatevalue<1-15>{\opaqueness}{100}{0}
+\animatevalue<1-15>{\offset}{0cm}{-5cm}
+\begin{colormixin}{\the\opaqueness!averagebackgroundcolor}
+\hskip\offset
+\begin{minipage}{\textwidth}
+\begin{theorem}
+This theorem flies out.
+\end{theorem}
+\end{minipage}
+\end{colormixin}
+\animatevalue<1-15>{\opaqueness}{0}{100}
+\animatevalue<1-15>{\offset}{-5cm}{0cm}
+\begin{colormixin}{\the\opaqueness!averagebackgroundcolor}
+\hskip\offset
+\begin{minipage}{\textwidth}
+\begin{theorem}
+This theorem flies in.
+\end{theorem}
+\end{minipage}
+\end{colormixin}
+\end{frame}
+
+\begin{frame}\transblindshorizontal
+ \frametitle{Czy obrazki mog¹ siê nak³adaæ?}
+ \framesubtitle{A przezroczystoœæ???}
+\unitlength1mm \unitlength1mm
+\begin{picture}(105,73)
+ \only<1,3>{\put(10,10){\includegraphics[width=50mm]{filizanka1}}}
+ \only<2,3,4>{\put(50,30){\includegraphics[width=50mm]{filizanka2}}}
+ \only<4>{\put(10,10){\includegraphics[width=50mm]{filizanka1}}}
+\end{picture}
+\end{frame}
+
+\begin{frame}
+ \frametitle{Multimedia}
+ Ten przyk³ad (najprawdopodobniej) wymaga zainstalowanego QuickTime
+ Playera\ldots
+
+ \movie[width=1.9cm,height=2.4cm,poster,label=sample]{}{sample.mov}
+
+\hyperlinkmovie[duration=2s]{sample}{Klikaj¹c w ten link obejrzysz
+pierwsze trzy sekundy!}
+
+%\movie[width=1.73cm,height=1.36cm,poster]{}{nunchaku.mpg}
+
+\end{frame}
+
+
+\end{document}

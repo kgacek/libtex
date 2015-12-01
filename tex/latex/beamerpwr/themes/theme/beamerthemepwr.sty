@@ -1,0 +1,42 @@
+\ProvidesPackageRCS $Header: /home/myszka/Dokumenty/teksty/rozne/logotyp/RCS/beamerthemepwr.sty,v 1.4 2010/05/19 06:57:16 myszka Exp myszka $
+%\ProvidesPackageRCS $Header: /home/myszka/Dokumenty/teksty/rozne/logotyp/RCS/beamerthemepwr.sty,v 1.4 2010/05/19 06:57:16 myszka Exp myszka $
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+%
+% Modified by Wojciech Myszka <Wojciech.Myszka@pwr.wroc.pl>
+
+%\DeclareOptionBeamer{shadow}[true]{\def\beamer@themerounded@shadow{#1}}
+%\ExecuteOptionsBeamer{shadow=false}
+%\ProcessOptionsBeamer
+
+\DeclareOptionBeamer{pasek}[pasek1]{\def\beamer@pwr@pasek{#1}}
+\ExecuteOptionsBeamer{pasek=pasek1}
+\DeclareOptionBeamer{lang}[pl]{\def\beamer@pwr@jezyk{#1}}
+\ExecuteOptionsBeamer{lang=pl}
+\DeclareOptionBeamer{fonty}[jtrr]{\def\beamer@pwr@fonty{#1}}
+%\ExecuteOptionsBeamer{fonty=jtrr}
+\IfFileExists{t1jtrr.fd}{\ExecuteOptionsBeamer{fonty=jtrr}}{%
+ \IfFileExists{t1trebuchet.fd}{\ExecuteOptionsBeamer{fonty=trebuchet}}{\ExecuteOptionsBeamer{fonty=cmss}}}
+ 
+%
+% Alternatywnie dla fonty=jtrr można/trzeba użyć fonty=trebuchet gdy 
+% korzystamy z pakietu winfonts
+%
+\ProcessOptionsBeamer
+
+\mode<presentation>
+
+\pgfdeclareimage[height=23mm]{Logoduze}{logopwr\beamer@pwr@jezyk}
+\pgfdeclareimage[width=23mm,height=73mm,interpolate=false]{pasek}{\beamer@pwr@pasek}
+%\pgfdeclareimage[height=7mm]{Logomale}{logopwrplm} % bitmapa o wysoko�ci ~60 px
+\pgfdeclareimage[height=7mm]{Logomale}{logopwr\beamer@pwr@jezyk} %
+
+\useinnertheme{pwr}
+\useoutertheme[left,width=7mm]{pwr}
+\usefonttheme{pwr}
+\usecolortheme{pwr}
+
+\mode
+<all>
