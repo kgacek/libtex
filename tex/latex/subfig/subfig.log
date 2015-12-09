@@ -1,0 +1,872 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.11.22)  9 DEC 2015 00:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**subfig.dtx
+(./subfig.dtx
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 3 languages loaded.
+File: subfig.dtx 
+(/usr/share/texlive/texmf-dist/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2007/11/11 v2.0u Standard LaTeX documentation class
+*************************************
+* Local config file ltxdoc.cfg used
+*************************************
+(./ltxdoc.cfg) (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/doc.sty
+Package: doc 2010/02/04 v2.1e Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count87
+\guard@level=\count88
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count89
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count98
+)
+\IndexMin=\dimen112
+\c@IndexColumns=\count99
+\GlossaryMin=\dimen113
+\c@GlossaryColumns=\count100
+\check@sum=\count101
+\bslash@cnt=\count102
+\wrong@table=\toks15
+\c@CodelineNo=\count103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count106
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count107
+
+(/home/kgacek/texmf/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count108
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks17
+\pdf@box=\box52
+\pdf@toks=\toks18
+\pdf@defaulttoks=\toks19
+\HyField@AnnotCount=\count112
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+))
+LaTeX Info: Redefining \cs on input line 72.
+
+
+! LaTeX Error: File `caption.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `format=hang' for package `caption'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...fication=RaggedRight]{caption}[2005/06/26]
+                                                  
+? 
+
+! LaTeX Error: Unknown option `justification=RaggedRight' for package `caption'
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...fication=RaggedRight]{caption}[2005/06/26]
+                                                  
+? 
+
+LaTeX Warning: You have requested, on input line 97, version
+               `2005/06/26' of package caption,
+               but only version
+               `'
+               is available.
+
+(./subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+! Undefined control sequence.
+l.163 \DeclareCaptionOption
+                           {listofformat}{\caption@setlistofformat{#1}}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \DeclareCaptionOption{l
+                             istofformat}{\caption@setlistofformat{#1}}
+? 
+
+! Undefined control sequence.
+<argument> \caption@eh 
+                       
+l.163 ...istofformat}{\caption@setlistofformat{#1}
+                                                  }
+? 
+! Illegal parameter number in definition of  .
+<to be read again> 
+                   1
+l.163 ...istofformat}{\caption@setlistofformat{#1}
+                                                  }
+? 
+! Package subfig Error: Undefined caption list-of format `##1'.
+
+See the subfig package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...istofformat}{\caption@setlistofformat{#1}
+                                                  }
+? 
+! Undefined control sequence.
+l.185 \DeclareCaptionOption
+                           {subrefformat}{\caption@setsubrefformat{#1}}
+? 
+
+! Undefined control sequence.
+<argument> \caption@eh 
+                       
+l.185 ...ubrefformat}{\caption@setsubrefformat{#1}
+                                                  }
+? 
+! Illegal parameter number in definition of  .
+<to be read again> 
+                   1
+l.185 ...ubrefformat}{\caption@setsubrefformat{#1}
+                                                  }
+? 
+! Package subfig Error: Undefined subref format `##1'.
+
+See the subfig package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 ...ubrefformat}{\caption@setsubrefformat{#1}
+                                                  }
+? 
+\c@KVtest=\count115
+\sf@farskip=\skip48
+\sf@captopadj=\dimen118
+\sf@capskip=\skip49
+\sf@nearskip=\skip50
+! Undefined control sequence.
+l.285 \captionsetup
+                   [subfloat]{%
+? 
+! Undefined control sequence.
+\caption@tempa ->\captionsetup 
+                               [subfloat]{,format=default,,justification=jus...
+l.297 \ProcessPackageOptions
+                            
+? 
+\c@subfigure=\count116
+\c@subfigure@save=\count117
+\c@lofdepth=\count118
+! Undefined control sequence.
+<argument> ...unterlist ,}subfigure}\captionsetup 
+                                                  [subfigure]{}
+l.298 ...ined{c@subfigure}{\newsubfloat{figure}}{}
+                                                  
+? 
+\c@subtable=\count119
+\c@subtable@save=\count120
+\c@lotdepth=\count121
+! Undefined control sequence.
+<argument> ...ounterlist ,}subtable}\captionsetup 
+                                                  [subtable]{}
+l.299 ...efined{c@subtable}{\newsubfloat{table}}{}
+                                                  
+? 
+\sf@top=\skip51
+\sf@bottom=\skip52
+
+Overfull \hbox (18.41745pt too wide) in paragraph at lines 163--516
+\OT1/cmr/m/n/10 mat=parens,labelsep=space, listof-for-mat=subparens,subrefforma
+t=subsimple  [sub-
+ []
+
+
+Overfull \hbox (55.88997pt too wide) in paragraph at lines 163--516
+\OT1/cmr/m/n/10 float],format=default,,justification=justified,,lofdepth=2,,lot
+depth=2,,subrefformat=parens,
+ []
+
+) (/home/kgacek/texmf/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count122
+\float@exts=\toks20
+\float@box=\box53
+\@float@everytoks=\toks21
+\@floatcapt=\box54
+)
+\@float@every@map=\toks22
+\c@map=\count123
+
+! Undefined control sequence.
+l.106 \captionsetup
+                   [map]{position=top}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \captionsetup[
+                    map]{position=top}
+? 
+\c@submap=\count124
+\c@submap@save=\count125
+\c@lomdepth=\count126
+! Undefined control sequence.
+<argument> ...@counterlist ,}submap}\captionsetup 
+                                                  [submap]{position=top,list...
+l.107 ...at[position=top,listofformat=simple]{map}
+                                                  
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+
+Overfull \hbox (34.4726pt too wide) in paragraph at lines 106--3
+[]\OT1/cmr/m/n/10 [map]position=top  [submap]position=top,listofformat=simple  
+                                         
+ []
+
+)
+Package color Info: Driver file: dvips.def on input line 130.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+
+Package subfig Warning: booktabs.sty is missing.
+(subfig)                I'm emulating the needed commands, but you should
+(subfig)                install it for better results. on input line 123.
+
+\tempbox=\box55
+\tempdima=\dimen119
+\tempdimb=\dimen120
+\sf@box=\box56
+
+Package subfig Warning: multirow.sty is missing.
+(subfig)                I'm emulating the needed command, but you should
+(subfig)                install it for better results. on input line 188.
+
+No file subfig.aux.
+\openout1 = `subfig.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+\@glossaryfile=\write3
+\openout3 = `subfig.glo'.
+
+Writing glossary file subfig.glo 
+\@indexfile=\write4
+\openout4 = `subfig.idx'.
+
+Writing index file subfig.idx
+Package doc Info: Made | a short reference for \verb on input line 193.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 193.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count127
+)
+LaTeX Info: Redefining \ref on input line 193.
+LaTeX Info: Redefining \pageref on input line 193.
+LaTeX Info: Redefining \nameref on input line 193.
+\@outlinefile=\write5
+\openout5 = `subfig.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(./subfig.dtx [1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 379.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 379.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 379.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 379.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 379.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 383.
+ [2]
+\tf@toc=\write6
+\openout6 = `subfig.toc'.
+
+\tf@lof=\write7
+\openout7 = `subfig.lof'.
+
+\tf@lot=\write8
+\openout8 = `subfig.lot'.
+
+\tf@lom=\write9
+\openout9 = `subfig.lom'.
+
+ [1
+
+] [2
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 414.
+
+
+LaTeX Warning: Reference `sec:customfloat' on page 1 undefined on input line 41
+6.
+
+
+LaTeX Warning: Reference `sec:back-compat' on page 1 undefined on input line 42
+2.
+
+
+LaTeX Warning: Citation `Lamp94' on page 1 undefined on input line 454.
+
+
+LaTeX Warning: Reference `sec:examples' on page 1 undefined on input line 461.
+
+
+LaTeX Warning: Reference `sec:faq:align' on page 1 undefined on input line 461.
+
+
+
+LaTeX Warning: Citation `Lamp94' on page 1 undefined on input line 461.
+
+
+LaTeX Warning: Reference `fig:1figs' on page 1 undefined on input line 463.
+
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.486 ...ption{Here are two figures side-by-side.}
+                                                  ^
+? 
+
+LaTeX Warning: Reference `fig:2figsA' on page 1 undefined on input line 493.
+
+
+LaTeX Warning: Reference `fig:2figsB' on page 1 undefined on input line 493.
+
+[1]
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.515 %     \label{fig:2figsA}}
+                               ^
+? 
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 515--515
+[][][][][]\OT1/cmr/m/n/10 figure 
+ []
+
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.520 %     \caption{Second.}
+                             ^
+? 
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 519--520
+[][][][][]\OT1/cmr/m/n/10 figure 
+ []
+
+
+LaTeX Warning: Citation `Mitt-etal04' on page 2 undefined on input line 529.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 529.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 529.
+
+
+LaTeX Warning: Citation `Reck97' on page 2 undefined on input line 530.
+
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 547.
+
+LaTeX Warning: Citation `Carl99' on page 2 undefined on input line 554.
+
+[2]
+
+LaTeX Warning: Reference `sec:customfloat' on page 3 undefined on input line 57
+3.
+
+
+LaTeX Warning: Reference `tab:newsubfloat' on page 3 undefined on input line 57
+5.
+
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.578 ...d by a \cmd{\newsubfloat} ``subfigure''.}
+                                                  ^
+? 
+
+Underfull \hbox (badness 1448) in paragraph at lines 588--590
+[]\OT1/cmr/m/n/10 Figure num-ber prepended to the
+ []
+
+
+Overfull \hbox (10.51767pt too wide) in paragraph at lines 580--601
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `Lamp94' on page 3 undefined on input line 607.
+
+
+LaTeX Warning: Reference `sec:layers' on page 3 undefined on input line 613.
+
+
+LaTeX Warning: Reference `sec:lof' on page 3 undefined on input line 624.
+
+[3]
+
+LaTeX Warning: Reference `tab:calling' on page 4 undefined on input line 681.
+
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.686 ...ption{\cmd{\subfloat} calling arguments.}
+                                                  ^
+? 
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 697.
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Reference `sec:listsubcaptions' on page 4 undefined on input lin
+e 734.
+
+
+LaTeX Warning: Reference `tab:keywords2' on page 4 undefined on input line 743.
+
+
+
+LaTeX Warning: Reference `sec:declaresubrefformat' on page 4 undefined on input
+ line 744.
+
+[4]
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.754 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...captiontopfalse }\caption@settype 
+                                                  {subfloat}\caption@settype...
+l.754 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...ettype {subfloat}\caption@settype 
+                                                  {sub\@captype }\let \sf@ol...
+l.754 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+<argument> ...pdima \@parboxrestore \caption@make 
+                                                  {\@nameuse {sub\@captype n...
+l.756 ...o 1.2in{\vbox to 15mm{\null\vfil}\hfil}}}
+                                                  ^
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.758 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...captiontopfalse }\caption@settype 
+                                                  {subfloat}\caption@settype...
+l.758 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...ettype {subfloat}\caption@settype 
+                                                  {sub\@captype }\let \sf@ol...
+l.758 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+<argument> ...pdima \@parboxrestore \caption@make 
+                                                  {\@nameuse {sub\@captype n...
+l.760 ...o 1.2in{\vbox to 15mm{\null\vfil}\hfil}}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.762 ...first two figures of a continued figure.}
+                                                  ^
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.769 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...captiontopfalse }\caption@settype 
+                                                  {subfloat}\caption@settype...
+l.769 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...ettype {subfloat}\caption@settype 
+                                                  {sub\@captype }\let \sf@ol...
+l.769 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+<argument> ...pdima \@parboxrestore \caption@make 
+                                                  {\@nameuse {sub\@captype n...
+l.771 ...o 1.2in{\vbox to 15mm{\null\vfil}\hfil}}}
+                                                  ^
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.773 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...captiontopfalse }\caption@settype 
+                                                  {subfloat}\caption@settype...
+l.773 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+\sf@subfloat ...ettype {subfloat}\caption@settype 
+                                                  {sub\@captype }\let \sf@ol...
+l.773 %   \subfloat
+                   [][]{^
+? 
+! Undefined control sequence.
+<argument> ...pdima \@parboxrestore \caption@make 
+                                                  {\@nameuse {sub\@captype n...
+l.775 ...o 1.2in{\vbox to 15mm{\null\vfil}\hfil}}}
+                                                  
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.777 ... last two figures of a continued figure.}
+                                                  ^
+? 
+
+LaTeX Warning: Reference `fig:cont' on page 5 undefined on input line 794.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 800.
+[5] [6]
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.924 %            sub-floats.}
+                               ^
+? 
+
+LaTeX Warning: Reference `fig:levels' on page 7 undefined on input line 929.
+
+
+LaTeX Warning: Reference `tab:keywords' on page 7 undefined on input line 957.
+
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.966 ...te initial values rather than defaults.)}
+                                                  ^
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.1034 ...ywords with Defaults and Values (cont).}
+                                                  ^
+? 
+[7] [8]
+
+LaTeX Warning: Reference `sec:newsubfloat' on page 9 undefined on input line 11
+13.
+
+[9]
+
+LaTeX Warning: Reference `fig:init' on page 10 undefined on input line 1139.
+
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.1144 %   \subfloat
+                    [Sub-float caption.]{\B{white}{Sub-float Body}}^
+? 
+! Undefined control sequence.
+\sf@subfloat ...captiontopfalse }\caption@settype 
+                                                  {subfloat}\caption@settype...
+l.1144 %   \subfloat
+                    [Sub-float caption.]{\B{white}{Sub-float Body}}^
+? 
+! Undefined control sequence.
+\sf@subfloat ...ettype {subfloat}\caption@settype 
+                                                  {sub\@captype }\let \sf@ol...
+l.1144 %   \subfloat
+                    [Sub-float caption.]{\B{white}{Sub-float Body}}^
+? 
+! Undefined control sequence.
+\@subcaplabel ->\caption@lstfmt 
+                                {\@nameuse {p@sub\@captype }}{\@nameuse {the...
+l.1144 ...oat caption.]{\B{white}{Sub-float Body}}
+                                                  ^
+? 
+! Undefined control sequence.
+<argument> ...pdima \@parboxrestore \caption@make 
+                                                  {\@nameuse {sub\@captype n...
+l.1144 ...oat caption.]{\B{white}{Sub-float Body}}
+                                                  ^
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.1146 %   \caption{Float caption.}
+                                   ^
+? 
+
+LaTeX Warning: Reference `tab:keywords' on page 10 undefined on input line 1174
+.
+
+
+LaTeX Warning: Reference `sub@fig:fontsize-01' on page 10 undefined on input li
+ne 1178.
+
+
+LaTeX Warning: Reference `sub@fig:fontsize-06' on page 10 undefined on input li
+ne 1178.
+
+! Undefined control sequence.
+\figfont #1#2#3-> \captionsetup 
+                                [subfigure]{#2=#3}\subfloat [{Option [\textt...
+l.1184 %   \figfont{fig:fontsize-01}{font}{Large}
+                                                 \g
+? 
+! Undefined control sequence.
+<argument> \caption@settype 
+                            
+l.1184 %   \figfont{fig:fontsize-01}{font}{Large}
+                                                 \g
+? 
+! Undefined control sequence.
+\sf@subfloat ...captiontopfalse }\caption@settype 
